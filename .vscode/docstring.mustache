@@ -1,0 +1,20 @@
+
+{{summaryPlaceholder}}
+
+### What is this?:
+    {{descriptionPlaceholder}}
+{{#argsExist}}
+
+### Args:
+{{#args}}
+    {{var}} ({{typePlaceholder}}): {{descriptionPlaceholder}}
+{{/args}}
+{{#returnsExist}}
+
+### Returns:
+{{#returns}}
+    {{typePlaceholder}}: {{descriptionPlaceholder}}
+{{/returns}}
+
+### Usage:
+    my{{name}} = {{name}}({{#args}}{{typePlaceholder}}, {{/args}})
