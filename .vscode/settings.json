@@ -8,5 +8,5 @@
         "--max-line-length",
         "119"
     ],
-    "autoDocstring.customTemplatePath": "${workspaceFolder}/.vscode/docstring-template.txt",
+    "autoDocstring.customTemplatePath": ".vscode/docstring.mustache",
 }
